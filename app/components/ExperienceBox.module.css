@@ -1,0 +1,31 @@
+.experienceBox {
+  width: 75%;
+  padding: 0 0 30px 0;
+}
+
+.title p {
+  float: left;
+  font-weight: 500;
+  margin: 0;
+}
+
+.duration p {
+  float: right;
+  font-style: italic;
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .experienceBox {
+    width: 100%;
+    padding: 0 0 30px 0;
+  }
+
+  .duration p {
+    float: left;
+  }
+
+  .experienceBox {
+    padding: 0 0 20px 0;
+  }
+}
