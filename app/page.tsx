@@ -18,11 +18,11 @@ import SectionLayout from "./components/SectionLayout";
 import SkillsBox from "./components/SkillsBox";
 import ProjectBox from "./components/ProjectBox";
 import ExperienceBox from "./components/ExperienceBox";
+import Footer from "./components/Footer";
 
 // Information
 import projects from "./projects";
 import experiences from "./experiences";
-import Footer from "./components/Footer";
 
 export default function Home() {
   const [theme, setTheme] = useState("light");
