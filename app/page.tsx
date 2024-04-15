@@ -115,12 +115,12 @@ export default function Home() {
       </SectionLayout>
       <SectionLayout title="EXPERIENCES">
         {experiences.map((experience) => (
-          <ExperienceBox {...experience} />
+          <ExperienceBox {...experience} key={experience.title} />
         ))}
       </SectionLayout>
       <SectionLayout title="PROJECTS">
         {projects.map((project) => (
-          <ProjectBox {...project} />
+          <ProjectBox {...project} key={project.title} />
         ))}
       </SectionLayout>
       <Footer />
