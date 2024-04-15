@@ -8,7 +8,7 @@ import moonBlack from "@/public/images/moonBlack.svg";
 import sunWhite from "@/public/images/sunWhite.svg";
 import moonWhite from "@/public/images/moonWhite.svg";
 
-import styles from "./NavBar.module.css";
+import styles from "./Navbar.module.css";
 
 const Navbar = ({ onChange }: any) => {
   const [toggled, setToggled] = useState(false);
