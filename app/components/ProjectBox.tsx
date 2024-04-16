@@ -32,22 +32,24 @@ const ProjectBox = ({
           <p style={{ marginRight: 75 }}>{description}</p>
           <p className={styles.tech}>Technologies:</p>
           <p>{tech}</p>
-          <a
-            className={styles.link}
-            href={githubLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>
-          <a
-            className={styles.link}
-            href={webLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Website
-          </a>
+          <div className={styles.linkContainer}>
+            <a
+              className={styles.link}
+              href={githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github ➭
+            </a>
+            <a
+              className={styles.link}
+              href={webLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Website ➭
+            </a>
+          </div>
         </Box>
       </Flex>
     </Fade>

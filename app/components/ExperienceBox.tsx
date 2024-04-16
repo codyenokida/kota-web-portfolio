@@ -1,8 +1,8 @@
 import React from "react";
 import { Flex, Box } from "rebass";
+import { Fade } from "react-awesome-reveal";
 
 import styles from "./ExperienceBox.module.css";
-import { Fade } from "react-awesome-reveal";
 
 const ExperienceBox = ({ title, duration, position }: any) => {
   return (
